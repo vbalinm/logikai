@@ -11,6 +11,7 @@ header.jumbotron{
 header h1 {
     padding: 50px;
     text-align: right;
+    color: white;
 }
 
 div.row{
@@ -20,6 +21,7 @@ div.row{
 p {
     margin: 10px;
     text-indent: 20px;
+    text-align: justify;
 }
 
 h2 {
@@ -70,7 +72,8 @@ table tr td:first-child {
 }
 
 #kmeret, #kido, #knev {
-    color: darkslategrey
+    color: darkslategrey;
+    font-size: 150%;
 }
 
 footer.jumbotron {

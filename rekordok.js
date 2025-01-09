@@ -8,7 +8,9 @@ rubikRekordok[7]="Barát Bence;2:21,03";
 
 function frissit(meret){
     kmeret.innerHTML=meret+' x '+meret;
-    kido.innerHTML=rubikRekordok[meret].split(';')[1];
+    kido.innerHTML=rubikRekordok[meret].split(';')[1] + " mp";
     knev.innerHTML=rubikRekordok[meret].split(';')[0];
+
     let kepfajl='rubik-'+meret+'.png';
+    document.getElementById('rubik').src = kepfajl;
 }
